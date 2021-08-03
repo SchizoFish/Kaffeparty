@@ -1,0 +1,98 @@
+body, html {
+    background-image: url("./img/Light-pink-rose-chocolate-coffee_2880x1800.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.coffeeimg{
+    width: 350px;
+    height: 500px;
+}
+
+/* @media (min-width: 768px) {
+    .info{
+        width:600px;
+    }
+}
+
+@media (min-width: 992px) {
+    .info{
+        width:720px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .info{
+        width:900px;
+    }
+} */
+
+.navbar {
+    height: 50px;
+    background-color: burlywood;
+}
+
+.navbar img{
+    height: 50px;
+}
+
+.align-items-center {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    height: 50px;
+    background-color: burlywood;
+}
+
+.page-title{
+    background: rgb(222,184,135,0.8);
+    width: 25%;
+    padding: 20px;
+    color: white;
+    font-family: serif;
+    font-style: italic;
+    min-width: 200px;
+}
+
+.divider{
+    background: rgb(222,184,135,0.8);
+    width: 100%;
+    max-height: 5px;
+}
+
+.info{
+    background: rgb(255,255,255,0.8);
+    padding: 15px;
+    width: 100%;
+    min-width: 350;
+}
+
+.prodinfo{
+    border: 1px solid black;
+    background: rgb(255,255,255,0.8);
+    width: 100%;
+    min-width: 350;
+}
+
+.pris{
+    background: rgb(222,184,135);
+    color:white;
+}
+
+.title{
+    font-size: x-large;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+#infotext{
+    font: medium;
+}
